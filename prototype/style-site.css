@@ -1,0 +1,340 @@
+    
+.haut{
+    display: block;
+}
+.profit{
+    width: 70px;
+    height: 60px;
+    border-radius: 60px;
+    margin-right: 10px;
+
+}
+.en-tete{
+    float: right;
+    margin-top: 0%;
+    margin-right: 100px;
+}
+.titre1, .Domaine1{
+    margin-left: 92%;
+    margin-top: -40px;
+    padding-right: 1px;
+    margin-bottom: 5px;
+}
+/*---- Partie Menu --------*/
+.menu{
+    position: relative;
+    display: inline-block;
+    width: 210px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.absent{
+    list-style: none;
+    padding-left: 10px;
+}
+a, li{
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+}
+li:hover{
+    background-color: aquamarine;
+    opacity: 0.7;
+    color: black;
+    height: 20px;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+/*---- Liste des Coachs --------*/
+.coachs{
+    border: 1px solid black;
+    display: block;
+    width: 80%;
+    height: 650px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.titre{
+    color: rgb(13, 197, 136);
+    margin-left: 15px;
+}
+.role{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    margin: 0px 25px 3px 10px;
+}
+.image{
+    float: left;
+    margin-right: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+.presentation{
+    width: 80px;
+    border-radius: 90px;
+}
+@media screen and (max-width:690px) {
+    .menu{
+        width: 100%;
+        height: 20%;
+        margin: 0px 0px;
+
+    }
+    li{
+        display: inline-block;
+        padding-right: 10px;
+        margin: 0px 0px;
+    }
+    li:hover{
+        height: 0%;
+        width: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .coachs{
+        
+        display: inline-block;
+        width: 100%;
+        height: 900px;
+    }
+    .role{
+        width: 15%;
+        padding-left: 5px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+}
+@media screen and (min-width:691px) and (max-width:1200px) {
+    .menu{
+        width: 100%;
+        height: 20%;
+
+    }
+    li{
+        display: inline-block;
+        padding-right: 10px;
+        margin: 0px 0px;
+    }
+    li:hover{
+        height: 0%;
+        width: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .coachs{
+        
+        display: inline-block;
+        width: 100%;
+        height: 900px;
+    }
+    .role{
+        width: 25%;
+        padding-left: 5px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+}
+/*-------Les Icons------*/
+/*ceci concerne ccs3 l'image*/
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 100px;
+}
+.css3, .html5{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.taille{
+    width: 210px;
+    height: 170px;
+}
+
+/*------Partie des Videos---------*/
+.videos{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    height: 550px;
+    margin-right: 5px;
+    margin-top: 20px;
+    float: right;
+}
+.vdeo{
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.visionnage{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.pousse{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#inpt{
+    width: 800px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    float: left;
+    top: 35px;
+    left: 40px;
+}
+button{
+    width: 170px;
+    height: 50px;
+    border-radius: 20px 20px;
+    background-color: rgb(13, 197, 136);
+    color: aliceblue;
+}
+button:hover{
+    color:aliceblue;
+    background-color: blue;
+}
+@media screen and (max-width:690px) {
+    .videos{
+        width: 100%;
+        height: 600px;
+    }
+    .flex{
+        
+        display: flex;
+        flex-direction:row;
+        margin-right: 10px;
+    }
+    .visionnage{
+        width: 20%;
+        padding-left: 0px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #inpt{
+        width: 370px;
+    }
+}
+@media screen and (min-width:691px) and (max-width:1200px) {
+    .videos{
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        flex-direction:row;
+    }
+    .visionnage{
+        width: 20%;
+        padding-left: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        grid-gap: 10px;
+    }
+    #inpt{
+        width: 70%;
+    }
+}
+/*---------Formalite-----------*/
+.formalite{
+    width: 75%;
+    margin-right: 50px;
+    margin-top: 20px;
+    float: right;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 250px;
+    height: 40px;
+}
+#frm{
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0px 0px 100px 10px;
+}
+.long{
+    width: 510px;
+    background-color: aquamarine;
+    opacity: 0.7;
+    color: black;
+    size: 20px;
+}
+#message, .mm{
+    background-color: aquamarine;
+    opacity: 0.7;
+}
+/*------Partie des Videos---------*/
+.partout{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(6, 165, 112);
+    color: white;
+}
+.bloc, .nous, .siege{
+    width: 30%;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.partout li{
+    color: white;
+    list-style-type: none;
+}
+.partout li:hover{
+    background-color: red;
+}
+.pied{
+    text-align: center;
+    background-color: rgb(2, 65, 44);
+    color: white;
+}
+@media screen and (min-widht: 690px){
+    .formalite{
+        display: inline-block;
+        flex-direction: column;
+        width: 50%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
